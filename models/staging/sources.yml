@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: lakekeeper
+    database: lakekeeper
+    schema: copy_pen_q2_to_iceberg_kimtore_pen
+    tables:
+      - name: t_vedtak
