@@ -1,0 +1,12 @@
+wendelboe_tester_iceberg:
+  target: dev
+  outputs:
+    dev:
+      type: trino
+      method: none
+      user: user
+      database: lakekeeper
+      host: localhost
+      port: 13131
+      schema: kimtore
+      threads: 4
